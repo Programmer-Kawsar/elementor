@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.left-sidebar {
+  width: 22%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+.top-header {
+  position: fixed;
+  width: 22%;
+  z-index: 99;
+}
+.top-header svg {
+  width: 15px;
+  cursor: pointer;
+}
+.top-bottom {
+  font-size: 12px;
+  padding: 9px 0;
+  font-weight: 500;
+  margin-top: 43px;
+}
+.top-bottom i {
+  font-weight: 900;
+  font-size: 15px;
+}
+.top-bottom a {
+  text-decoration: none;
+  color: black;
+}
+.top-bottom .style i {
+  font-weight: 900;
+  font-size: 15px;
+}
+.top-bottom .advance i {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.module-name {
+  cursor: pointer;
+}
+.module-content p {
+  margin-top: -4px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.module-content textarea {
+  width: 100%;
+  outline: none;
+  padding: 0 5px;
+}
+.module-content {
+  margin: 0 20px;
+  font-size: 13px;
+}
+.module-p {
+  margin-bottom: 6px;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
+.link-text .input-field input {
+  outline: none;
+  border: 1px solid #ddd;
+  height: 24px;
+  padding-left: 5px;
+}
+.link-text .input-field i {
+  font-weight: 900;
+  border: 1px solid #ddd;
+  border-left: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.size-div {
+  border: 1px solid #ddd;
+  width: 66% !important;
+}
+.aling-div {
+  border: 1px solid #ddd;
+  width: 55% !important;
+}
+.aling-border {
+  border-right: 1px solid #ddd;
+  padding: 5px 0;
+  margin-top: -1px !important;
+}
+.justify {
+  border: none;
+}
+
+.style-item {
+  width: 21% !important;
+  border: 1px solid #ddd;
+}
+
+.style-item .colorpick-eyedropper-input-trigger {
+  display: none;
+}
+.style-item input {
+  background: none;
+}
+.style-item i {
+  font-weight: 900;
+}
+.style-item2 {
+  width: 12% !important;
+  border: 1px solid #ddd;
+}
+
+/* bottom header */
+.bottom-header {
+  padding: 0 !important;
+  position: fixed;
+  bottom: 0;
+  width: 22%;
+  z-index: 99;
+}
+.bottom-header i {
+  font-weight: 900;
+  color: #9da5ae;
+  font-size: 13px;
+}
+.bottom-header a {
+  text-decoration: none;
+  color: black !important;
+}
+.module-text-bottom {
+  padding: 7px 32px !important;
+  margin-right: -9px;
+  background: #f3bafd;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block !important;
+}
+
+/* main-body-content */
+
+.main-body-content {
+  width: 78% !important;
+  padding: 0 12px;
+  margin-top: 160px;
+}
+.main-body-content h1 {
+  border: 1px solid White;
+  padding: 0 5px;
+  font-size: 16px;
+}
+.main-body-content h1:hover {
+  border: 1px solid black;
+}
+
+/* typography */
+
+.custom-font-size {
+  width: 100%;
+}
+.custom-font-size .range {
+  width: 74%;
+}
+.custom-font-size .number {
+  width: 20%;
+}
+.triger-typography {
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  background: white;
+  z-index: 9;
+  width: 20%;
+  padding: 0 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+}
+.triger-fontfamily {
+  position: absolute;
+  left: 91px;
+  background: white;
+  z-index: 9;
+  width: 59%;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding-bottom: 50px;
+  top: 51px;
+}
+.triger-fontfamily p {
+  border: 1px solid #ddd;
+  text-align: left !important;
+
+  padding: 3px 5px;
+  margin: 2px auto;
+  margin-left: 5px;
+}
+
+/* font family */
+
+.Belanosima {
+  font-family: Belanosima;
+}
+.Montserrat {
+  font-family: Montserrat;
+}
+.Raleway {
+  font-family: Raleway;
+}
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.sunto {
+  font-family: sa;
+}
+
+/* custom color picker */
+
+/* Hide the default color picker arrow */
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+/* Customize the appearance of the color picker */
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the color picker container */
+.custom-color-picker {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+}

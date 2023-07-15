@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementor Page Builder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main-div d-flex">
+      <!-- Left Sidebar -->
+      <div class="left-sidebar">
+        <!-- top header -->
+        <div
+          class="top-header bg-dark text-white pb-2 pt-2 d-flex justify-content-around"
+        >
+          <div class="bar-icon">
+            <a class="text-white" href="#"><i class="fa-solid fa-bars"></i></a>
+          </div>
+          <div class="module-text">Edit Heading</div>
+
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="grid"
+            role="img"
+            xmlns="#"
+            viewBox="0 0 448 512"
+            class="svg-inline--fa fa-grid fa-lg"
+          >
+            <path
+              fill="currentColor"
+              d="M0 72C0 49.9 17.9 32 40 32H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V72zM0 232c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V232zM128 392v48c0 22.1-17.9 40-40 40H40c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40H88c22.1 0 40 17.9 40 40zM160 72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V72zM288 232v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM160 392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H200c-22.1 0-40-17.9-40-40V392zM448 72v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V72c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40zM320 232c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V232zM448 392v48c0 22.1-17.9 40-40 40H360c-22.1 0-40-17.9-40-40V392c0-22.1 17.9-40 40-40h48c22.1 0 40 17.9 40 40z"
+              class=""
+            ></path>
+          </svg>
+        </div>
+
+        <!-- top bottom header -->
+        <div class="top-bottom d-flex justify-content-around fs-5">
+          <div class="content text-center">
+            <a href="#" class="text-decoration-none">
+              <i class="fa-sharp fa-regular fa-pencil"></i>
+              <p>Content</p></a
+            >
+          </div>
+          <div class="style text-center">
+            <a href="#"
+              ><i class="fa-sharp fa-regular fa-circle-half-stroke"></i>
+              <p>Style</p></a
+            >
+          </div>
+          <div class="advance text-center">
+            <a href="#"
+              ><i class="fa-regular fa-gear"></i>
+              <p>Advance</p></a
+            >
+          </div>
+        </div>
+
+        <div class="module-details">
+          <!-- left side module content -->
+
+          <div class="module-main-content module-content">
+            <div class="module-name d-flex">
+              <i class="fa-solid fa-caret-right mr-2"></i>
+              <p>Title</p>
+            </div>
+            <div class="text-aria">
+              <p class="module-p">Title</p>
+              <textarea
+                name=""
+                id=""
+                rows="3"
+                placeholder="Add Your Heading Text Here"
+              ></textarea>
+            </div>
+            <hr />
+            <div class="link-text">
+              <p class="module-p">Link</p>
+              <div class="input-field d-flex align-items-center">
+                <input
+                  class="w-100"
+                  type="text"
+                  placeholder="Paste URL or Type"
+                />
+                <i class="fa-regular fa-gear"></i>
+              </div>
+            </div>
+            <div
+              class="size-text mt-3 d-flex align-items-center justify-content-between"
+            >
+              <p class="module-p mt-1 mr-2">Size</p>
+              <div
+                class="size-div d-flex align-items-center justify-content-between"
+              >
+                <p class="module-p mt-1 pl-1">Default</p>
+                <i class="fa-solid fa-caret-down pr-1"></i>
+              </div>
+            </div>
+
+            <div
+              class="html-tag mt-3 d-flex align-items-center justify-content-between"
+            >
+              <p class="module-p mt-1 mr-2">HTML Tag</p>
+              <div
+                class="size-div d-flex align-items-center justify-content-between"
+              >
+                <p class="module-p mt-1 pl-1">H1</p>
+                <i class="fa-solid fa-caret-down pr-1"></i>
+              </div>
+            </div>
+            <div
+              class="alingment-item mt-3 d-flex align-items-center justify-content-between"
+            >
+              <div class="aling d-flex">
+                <p class="module-p mt-1 mr-2">Alingment</p>
+                <i class="fa-solid fa-caret-down mt-1"></i>
+              </div>
+              <div
+                class="aling-div d-flex align-items-center text-center justify-content-between"
+              >
+                <i
+                  class="fa-solid fa-align-left mt-1 pr-2 pl-2 aling-border left"
+                ></i>
+                <i
+                  class="fa-solid fa-align-center mt-1 pr-2 aling-border center"
+                ></i>
+                <i
+                  class="fa-solid fa-align-right mt-1 pr-2 aling-border right"
+                ></i>
+
+                <i
+                  class="fa-solid fa-align-justify mt-1 pr-2 aling-border justify"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- left side module style -->
+          <div class="none module-style module-content">
+            <div class="module-name d-flex">
+              <i class="fa-solid fa-caret-right mr-2"></i>
+              <p>Title</p>
+            </div>
+
+            <div class="mt-3 d-flex align-items-center justify-content-between">
+              <p class="module-p mt-1 mr-2">Text Color</p>
+
+              <div
+                class="style-item d-flex align-items-center text-center justify-content-between"
+              >
+                <i
+                  class="fa-regular fa-globe mt-1 pr-1 pl-2 aling-border left"
+                ></i>
+                <input
+                  class="mt-1 pr-1 pl-1 aling-border justify bg-none color-change"
+                  type="color"
+                />
+              </div>
+            </div>
+            <div class="mt-3 d-flex align-items-center justify-content-between">
+              <p class="module-p mt-1 mr-2">Background Color</p>
+
+              <div
+                class="style-item d-flex align-items-center text-center justify-content-between"
+              >
+                <i
+                  class="fa-regular fa-globe mt-1 pr-1 pl-2 aling-border left"
+                ></i>
+                <input
+                  class="mt-1 pr-1 pl-1 aling-border justify bg-none background-color-change"
+                  type="color"
+                />
+              </div>
+            </div>
+            <div class="mt-3 d-flex align-items-center justify-content-between">
+              <p class="module-p mt-1 mr-2">Typography</p>
+
+              <div
+                class="style-item d-flex align-items-center text-center justify-content-between"
+              >
+                <i
+                  class="fa-regular fa-globe mt-1 pr-1 pl-2 aling-border left"
+                ></i>
+
+                <i
+                  class="fa-solid fa-pencil mt-1 pr-2 pl-1 aling-border justify triger-typography-icon"
+                ></i>
+
+                <!-- triger typography -->
+                <div class="none triger-typography">
+                  <div
+                    class="size-text mt-3 d-flex align-items-center justify-content-between"
+                  >
+                    <p class="module-p mt-1 mr-2">Family</p>
+                    <div
+                      class="size-div click-tiger d-flex align-items-center justify-content-between"
+                    >
+                      <p class="module-p mt-1 pl-1">Default</p>
+                      <i class="fa-solid fa-caret-down pr-1"></i>
+                      <!-- font family -->
+                      <div class="none triger-fontfamily">
+                        <div class="family-div mt-3">
+                          <p class="module-p mt-1 mr-2">Belanosima</p>
+                          <p class="module-p mt-1 mr-2">Montserrat</p>
+                          <p class="module-p mt-1 mr-2">Raleway</p>
+                          <p class="module-p mt-1 mr-2">sans-serif</p>
+                          <p class="module-p mt-1 mr-2">sunto</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="size-text mt-3">
+                    <div class="size-text d-flex justify-content-between">
+                      <p class="module-p mt-1">Size</p>
+                      <p class="module-p mt-1">px</p>
+                    </div>
+                    <div
+                      class="custom-font-size d-flex align-items-center justify-content-between"
+                    >
+                      <input
+                        class="font-size"
+                        step="1"
+                        max="200"
+                        min="16"
+                        type="range"
+                        value="16"
+                      />
+                      <input
+                        class="font-size-number number"
+                        value=""
+                        type="number"
+                      />
+                    </div>
+                  </div>
+
+                  <div
+                    class="size-text mt-3 d-flex align-items-center justify-content-between"
+                  >
+                    <p class="module-p mt-1 mr-2">Weight</p>
+                    <div
+                      class="size-div d-flex align-items-center justify-content-between"
+                    >
+                      <p class="module-p mt-1 pl-1">Default</p>
+                      <i class="fa-solid fa-caret-down pr-1"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    class="size-text mt-3 d-flex align-items-center justify-content-between"
+                  >
+                    <p class="module-p mt-1 mr-2">Transform</p>
+                    <div
+                      class="size-div d-flex align-items-center justify-content-between"
+                    >
+                      <p class="module-p mt-1 pl-1">Default</p>
+                      <i class="fa-solid fa-caret-down pr-1"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    class="size-text mt-3 d-flex align-items-center justify-content-between"
+                  >
+                    <p class="module-p mt-1 mr-2">Style</p>
+                    <div
+                      class="size-div d-flex align-items-center justify-content-between"
+                    >
+                      <p class="module-p mt-1 pl-1">Default</p>
+                      <i class="fa-solid fa-caret-down pr-1"></i>
+                    </div>
+                  </div>
+
+                  <div
+                    class="size-text mt-3 d-flex align-items-center justify-content-between"
+                  >
+                    <p class="module-p mt-1 mr-2">Decoration</p>
+                    <div
+                      class="size-div d-flex align-items-center justify-content-between"
+                    >
+                      <p class="module-p mt-1 pl-1">Default</p>
+                      <i class="fa-solid fa-caret-down pr-1"></i>
+                    </div>
+                  </div>
+
+                  <div class="size-text mt-3">
+                    <div class="size-text d-flex justify-content-between">
+                      <p class="module-p mt-1">Line-Height</p>
+                      <p class="module-p mt-1">px</p>
+                    </div>
+                    <div
+                      class="custom-font-size d-flex align-items-center justify-content-between"
+                    >
+                      <input
+                        class="range"
+                        step="1"
+                        max="100"
+                        min="16"
+                        type="range"
+                      />
+                      <input class="number" value="" type="number" />
+                    </div>
+                  </div>
+
+                  <div class="size-text mt-3">
+                    <div class="size-text d-flex justify-content-between">
+                      <p class="module-p mt-1">Letter Spacing</p>
+                      <p class="module-p mt-1">px</p>
+                    </div>
+                    <div
+                      class="custom-font-size d-flex align-items-center justify-content-between"
+                    >
+                      <input
+                        class="range"
+                        step="1"
+                        max="100"
+                        min="16"
+                        type="range"
+                      />
+                      <input class="number" value="" type="number" />
+                    </div>
+                  </div>
+
+                  <div class="size-text mt-3">
+                    <div class="size-text d-flex justify-content-between">
+                      <p class="module-p mt-1">Word Spacing</p>
+                      <p class="module-p mt-1">px</p>
+                    </div>
+                    <div
+                      class="custom-font-size d-flex align-items-center justify-content-between"
+                    >
+                      <input
+                        class="range"
+                        step="1"
+                        max="100"
+                        min="16"
+                        type="range"
+                      />
+                      <input class="number" value="" type="number" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3 d-flex align-items-center justify-content-between">
+              <p class="module-p mt-1 mr-2">Text Stroke</p>
+
+              <div
+                class="style-item2 d-flex align-items-center text-center justify-content-between"
+              >
+                <i
+                  class="fa-solid fa-pencil mt-1 pl-2 pr-2 aling-border justify"
+                ></i>
+              </div>
+            </div>
+            <div class="mt-3 d-flex align-items-center justify-content-between">
+              <p class="module-p mt-1 mr-2">Text Shadow</p>
+
+              <div
+                class="style-item2 d-flex align-items-center text-center justify-content-between"
+              >
+                <i
+                  class="fa-solid fa-pencil mt-1 pl-2 pr-2 aling-border justify"
+                ></i>
+              </div>
+            </div>
+
+            <div
+              class="size-text mt-3 d-flex align-items-center justify-content-between"
+            >
+              <p class="module-p mt-1 mr-2">Blend Mode</p>
+              <div
+                class="size-div d-flex align-items-center justify-content-between"
+              >
+                <p class="module-p mt-1 pl-1">Normal</p>
+                <i class="fa-solid fa-caret-down pr-1"></i>
+              </div>
+            </div>
+
+            <!-- cutting option -->
+          </div>
+        </div>
+
+        <!-- bottom header -->
+        <div
+          class="top-header bg-dark text-white bottom-header align-items-center pb-2 pt-2 d-flex justify-content-around"
+        >
+          <a href="#"><i class="fa-regular fa-gear"></i></a>
+          <a href="#"><i class="fa-regular fa-map"></i></a>
+          <a href="#"><i class="fa-regular fa-clock-rotate-left"></i></a>
+          <a href="#"><i class="fa-regular fa-laptop-code"></i></a>
+          <a href="#"><i class="fa-regular fa-eye"></i></a>
+
+          <a href="#"><div class="module-text-bottom">Update</div></a>
+        </div>
+      </div>
+
+      <div class="main-body-content">
+        <h1>MERN Stack developer</h1>
+      </div>
+    </div>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/funtions.js"></script>
+  </body>
+</html>
